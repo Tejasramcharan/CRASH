@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>crash ecommerce</title>
+  <style media="screen">
+    .footer{
+      position: fixed;
+    }
+  </style>
+</head>
+
+<body style="background-color:#f7f7f7;">
+  {%if request.user.is_authenticated%}
+    {% include "ecom/customer_navbar.html" %}
+  {%else%}
+    {% include "ecom/navbar.html" %}
+  {%endif%}
+  <br><br><br>
+<h3 style="text-align:center;">"Founded in 2023 in bangalore, Redwolf is a direct-to-consumer specialty brand that focuses on licensed pop culture inspired apparel and accessories. We are an independent, self-funded business started by a bunch of friends who quit their cushy jobs to try and do something cool, and here we are  excited about the next great t-shirt that we’re about to drop.
+
+We started this journey by making awesome graphic tees, and have slowly expanded over the years to host a full line up of apparel and accessories. We have always laid emphasis on sourcing our products locally and we continue to do so with every new product line that we launch. We’re inspired by the multiverse, but proudly made in India!" </h3>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  {% include "ecom/footer.html" %}
+</body>
+<!--
+developed By : Tejas ramcharan k
+-->
+
+</html>
