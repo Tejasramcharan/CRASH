@@ -1,6 +1,10 @@
 # **CRASH - eCommerce Site in Django Python**
 
 **Developed By Tejas ramcharan k**
+## Tech Stack: 
+ Python,  Django,  SQLite3,  HTML , CSS,  
+  Pillow Library ,  Bootstrap.
+
 
 ## **Instructions**
 - Install the Requirements: pip install -r requirements.txt
